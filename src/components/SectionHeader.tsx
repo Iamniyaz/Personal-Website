@@ -1,4 +1,4 @@
-import { title } from "process"
+import { title } from "process";
 
 export const SectionHeader = (
 {
@@ -26,6 +26,6 @@ export const SectionHeader = (
         {description}
         </p>
         </>
-    )
-}
+    );
+};
  

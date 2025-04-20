@@ -53,7 +53,7 @@ export const TestimonialsSection = () => {
       {testimonials.map((testimonial)=>
       (
         <Card key={testimonial.name} className="max-w-xs
-        md:mas-3-md md:p-8">
+        md:mas-3-md p-6 md:p-8">
           <div className="flex gap-4 items-center ">
             <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
         <Image src={testimonial.avatar} 
