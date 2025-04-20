@@ -44,7 +44,7 @@ const testimonials = [
 ];
 
 export const TestimonialsSection = () => {
-  return (<div className="py-16 lg:py-24">
+  return (<div id="testimonials" className="py-16 lg:py-24">
     <div className="container">
     <SectionHeader eyebrow="Happy Clients"
     title="What clients Say about me " description="  Don't just tack my word for it. See what my client have to say about my work." />

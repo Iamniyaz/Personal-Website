@@ -9,39 +9,39 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Mjcet Mini Project",
+    year: "2025",
+    title: "X(Twitter) MCP Server",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: " Reduced media delivery latency by 30%" },
+      { title: "Achieved 99.99% uptime with Kubernetes orchestration" },
+      { title: "A high-performance media processing backend" },
     ],
     link: "",
     image: darkSaasLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Open Source",
+    year: "2024",
+    title: "Normal Language to Sql query(GenAi)",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: " Uses LLMs to translate natural language into accurate SQL." },
+      { title: "Understands database structure for context-aware query generation." },
+      { title: "Reduced time for non-technical users to run DB queries from hours to seconds." },
     ],
     link: "",
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "ACM Mjcet",
+    year: "2024-25",
+    title: "Club Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Maintain and enhance the official club website built with Next.js and TypeScript" },
+      { title: "Ensuring performance, SEO,and accessibility best practices" },
+      { title: "Integrated version control with Git and deployed updates via Vercel" },
     ],
-    link: "",
+    link: "https://www.acmmjcet.com",
     image: aiStartupLandingPage,
   },
 ];
@@ -49,7 +49,7 @@ const portfolioProjects = [
 export const ProjectsSection = () => {
   return(
 
-   <section className="pb-16 lg:py-24">
+   <section id="projects" className="pb-16 lg:py-24">
     <div className="container">
       <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how I transformed concept into engaging digital experiences." />
       <div className="mt-10 md:mt-20 flex flex-col gap-20 mt-10">
